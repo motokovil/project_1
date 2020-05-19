@@ -39,14 +39,12 @@ header p{
   display: flex;
   flex-wrap:wrap;
   justify-content: center;
-  background-color: gradient;
   padding: 150px 0px;
   margin-bottom: 20px;
   background-color: #fff;
 }
 
 .servicios div:hover{
-  color: ;
   background-color: hsl(110,40%,60%);
   transform: scale(1.1);
   box-shadow: 0px 5px 30px -20px;
