@@ -6,6 +6,10 @@
   font-family: 'Raleway', sans-serif;
 }
 
+body {
+  background-color: hsl(0,0%,90%);
+}
+
 /* HEADER________________________________________ */
 
 header {
@@ -13,11 +17,11 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0px 5px 30px -20px;
   padding: 20%;
   text-align: center;
   height: 500px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  background-color: #fff;
 }
 
 header h1{
@@ -36,7 +40,9 @@ header p{
   flex-wrap:wrap;
   justify-content: center;
   background-color: gradient;
-  
+  padding: 150px 0px;
+  margin-bottom: 20px;
+  background-color: #fff;
 }
 
 .servicios div:hover{
@@ -77,6 +83,7 @@ img {
 .trabajo {
   padding: 50px 10%;
   text-align: center;
+  background-color: #fff;
 }
 
 .trabajo h2 {
