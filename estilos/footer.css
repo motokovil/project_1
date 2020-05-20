@@ -1,0 +1,16 @@
+
+
+
+.footer {
+    display: flex;
+}
+
+.footer .columna1, .footer .columna2, .footer .columna3 {
+    width: 33.33%;
+    height: 200px;
+    background-color: black;
+}
+
+.footer .columna1 {
+    background-color: hsl(65,70%,50%);
+}

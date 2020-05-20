@@ -1,0 +1,75 @@
+/* ESPACIO DE TRABAJO_________________________________________ */
+
+.trabajo {
+    padding: 100px 10%;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 20px -10px black;
+  }
+  
+  .trabajo h2 {
+    font-weight: 500;
+    margin: 20px 0px;
+  }
+  
+  
+  .trabajo p {
+    font-size: 15px;
+    margin: 20px;
+  }
+  
+  nav{margin: 50px 0px 30px 0px}
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li{margin: 10px;font-weight: 500;}
+  
+  
+  .sec2 {
+    display: flex;
+    justify-content: center;
+    padding: px;
+  }
+  
+  .trabajo .columna1,.trabajo .columna3 {
+    margin: 20px 10px;
+  }
+  
+  .columna1 div,.columna3 div{
+    background-size: cover;
+    background-position: center;
+    width: 20vw;
+    height: 20vw;
+    margin: 10px 0px;
+  }
+  
+  
+  .columna1 .img1{
+    background-image: url(https://wonderfulengineering.com/wp-content/uploads/2014/09/Green-Wallpaper-35.jpg);
+  }
+  
+  .columna1 .img2{
+    background-image: url(https://wallpapercave.com/wp/wp2465273.jpg);
+  }
+  
+  .columna2 .img {
+    background-image: url(https://graffitiwallpaper.com/pics/listings/100_tall.jpg);
+    width: 20vw;
+    height: 50vw;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .columna3 .img1 {
+    background-image: url(https://ae01.alicdn.com/kf/HTB1paKSLpXXXXc8aXXXq6xXFXXXr/Custom-3D-Photo-Wallpaper-Green-Forest-Natural-Scenery-Wall-Painting-HD-Living-Room-Sofa-Background-Wallpaper.jpg_q50.jpg);
+  }
+  
+  .columna3 .img2 {
+    background-image: url(https://2.bp.blogspot.com/-U3KHIcuSWYA/T4g2L75U--I/AAAAAAAAByM/4Slux1yRj-w/s1600/Green%2BWallpaper%2B%252810%2529.jpg);
+  }
+  
