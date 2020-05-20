@@ -3,10 +3,10 @@
 .servicios {
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 150px 100px;
     margin-bottom: 10px;
-    background-color: black;
+    background-color: hsl(0,0%,98%);
   }
   
   .servicios div:hover{
@@ -17,8 +17,8 @@
   }
   
   .servicios div{
-    width: 40vw;
-    margin: 10px 5px;
+    width: 30vw;
+    margin: 10px;
     background-color: hsl(110,10%,90%);
     text-align: center;
     border-radius: 3px;

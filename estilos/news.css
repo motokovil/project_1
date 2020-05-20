@@ -1,15 +1,18 @@
 .news {
-    background-color: #fff;
+    background-color: hsl(0,0%,96%);
     display: flex;
     flex-direction: column;
-    padding: 100px 20px;
+    padding: 100px 0px;
 }
 
 .news .header {
     padding: 30px;
     text-align: center;
     margin-bottom: 30px;
+    background-color: #fff;
 }
+
+
 
 .news .header h2 {
     margin: 20px;
@@ -39,7 +42,9 @@
     flex-direction: column;
     text-align: justify;
     margin: 10px;
-    padding: 20px 0px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
 }
 
 
