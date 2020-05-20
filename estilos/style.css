@@ -35,12 +35,25 @@ body {
 
   .servicios div{
     padding: 10px;
-    width: 80vw;
-    margin: 10px;
+    width: 70vw;
+    margin-bottom: 10px;
     background-color: hsl(110,10%,90%);
   }
 
   .news .item {
     width: 70vw;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .servicios div{
+    padding: 10px;
+    width: 95vw;
+    margin-bottom: 10px;
+    background-color: hsl(110,10%,90%);
+  }
+
+  .news .item {
+    width: 95vw;
   }
 }

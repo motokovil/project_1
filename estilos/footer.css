@@ -5,12 +5,31 @@
     display: flex;
 }
 
+.footer i {
+    font-size: 100px;    
+}
+
 .footer .columna1, .footer .columna2, .footer .columna3 {
     width: 33.33%;
-    height: 200px;
+    color: white;
     background-color: black;
+    padding: 20px;
 }
 
 .footer .columna1 {
     background-color: hsl(65,70%,50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h2 {
+    font-weight: 300;
+    margin: 10px 0px;
+    font-size: 15px;
+}
+
+.footer p {
+    font-size: 10px;
+    line-height: 2;
 }
