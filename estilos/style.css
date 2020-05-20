@@ -18,3 +18,29 @@ body {
 ::-webkit-scrollbar-thumb {
   background-color: hsl(65,70%,50%);;
 }
+
+@media screen and (max-width:800px){
+  .trabajo .columna1 div, .trabajo .columna3 div {
+    width: 30vw;
+    height: 30vw;
+  }
+  .trabajo .columna2 .img {
+    width: 30vw;
+    height: 75vw;
+  }
+
+  header {
+    padding: 10%;
+  }
+
+  .servicios div{
+    padding: 10px;
+    width: 80vw;
+    margin: 10px;
+    background-color: hsl(110,10%,90%);
+  }
+
+  .news .item {
+    width: 70vw;
+  }
+}

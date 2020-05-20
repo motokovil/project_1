@@ -35,7 +35,6 @@
 
 .news .item {
     width: 40vw;
-    height: 300px;
     display: flex;
     justify-content: center;
     align-items: left;
