@@ -16,8 +16,9 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: hsl(65,70%,50%);;
+  background-color: rgb(212, 223, 93);;
 }
+
 
 @media screen and (max-width:800px){
   .trabajo .columna1 div, .trabajo .columna3 div {
@@ -33,11 +34,10 @@ body {
     padding: 10%;
   }
 
-  .servicios div{
+  .servicios .servicio1, .servicios .servicio2, .servicios .servicio3, .servicios .servicio4{
     padding: 10px;
     width: 70vw;
     margin-bottom: 10px;
-    background-color: hsl(110,10%,90%);
   }
 
   .news .item {
@@ -50,7 +50,6 @@ body {
     padding: 10px;
     width: 95vw;
     margin-bottom: 10px;
-    background-color: hsl(110,10%,90%);
   }
 
   .news .item {

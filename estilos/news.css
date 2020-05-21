@@ -79,6 +79,14 @@ button {
     transition: .5s ease-in-out;
 }
 
+button:hover {
+    background-color: hsl(65,70%,40%);
+}
+
+button:focus {
+    background-color: hsl(65,70%,50%);
+}
+
 
 .news :nth-child(3) {
    flex-direction: row-reverse;
